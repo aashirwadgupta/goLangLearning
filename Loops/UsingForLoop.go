@@ -34,6 +34,18 @@ func ForLikeWhile(sal Salutation, times int) {
     }
 }
 
+/*
+func ForWithoutCondition(sal Salutation, times int) {
+   
+    for {
+        fmt.Println(i)
+        fmt.Println(sal.name)
+        fmt.Println(sal.greeting)
+        i++ 
+    }
+}
+*/
+
 func main() {
 	var s = Salutation{"Aashirwad", "Gupta"}
 	//ForLoop(s, 5)
