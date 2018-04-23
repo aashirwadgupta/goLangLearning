@@ -1,3 +1,9 @@
+/**
+ * @author Aashirwad Gupta
+ *
+ * Functions Usage and Syntaxes - https://golang.org/doc/codewalk/functions/
+ */
+
 package main
 
 import (
