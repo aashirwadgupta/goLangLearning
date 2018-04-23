@@ -15,15 +15,27 @@ type Salutation struct {
 	greeting string
 }
 
-func Greet(sal Salutation, times int) {
-	for i := 0; i < times; i++ {
-		fmt.Println(sal.name)
-		fmt.Println(i)
-		fmt.Println(sal.greeting)
-	}
+
+func ForLoop(sal Salutation, times int) {
+    for i :=0; i<times; i++ {
+        fmt.Println(sal.name)
+        fmt.Println(i)
+        fmt.Println(sal.greeting)
+    }
+}
+
+func ForLikeWhile(sal Salutation, times int) {
+    i := 0
+    for  i<times{
+        fmt.Println(i)
+        fmt.Println(sal.name)
+        fmt.Println(sal.greeting)
+        i++ 
+    }
 }
 
 func main() {
-	var s = Salutation{"Aashirwad", "Hello!"}
-	Greet(s, 5)
+	var s = Salutation{"Aashirwad", "Gupta"}
+	//ForLoop(s, 5)
+	ForLikeWhile(s, 2)
 }
