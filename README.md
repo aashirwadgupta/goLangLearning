@@ -10,7 +10,7 @@ Why to learn Golang -
    
    b. https://www.quora.com/Is-Google-Go-worth-learning-What-would-the-advantages-be-Is-it-a-fast-language-How-different-is-it-compared-to-other-languages-like-Java-or-C-When-would-I-use-it
     
-    c. https://www.quora.com/Should-I-learn-Golang-or-Python-in-2017
+   c. https://www.quora.com/Should-I-learn-Golang-or-Python-in-2017
  
  2. Medium - Article by Keval Patel - https://medium.com/@kevalpatel2106/why-should-you-learn-go-f607681fad65
 
