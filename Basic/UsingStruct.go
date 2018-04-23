@@ -1,3 +1,9 @@
+/**
+ * @author Aashirwad Gupta
+ *
+ * Struct and it's syntax - https://golang.org/ref/spec#Struct_types
+ */
+
 package main
 
 import (
