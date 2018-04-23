@@ -1,3 +1,9 @@
+/**
+ * @author Aashirwad gupta
+ *
+ * If Statements - https://golang.org/ref/spec#If_statements
+ */
+
 package main
 
 import (
