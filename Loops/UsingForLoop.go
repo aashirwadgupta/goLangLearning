@@ -36,10 +36,14 @@ func ForLikeWhile(sal Salutation, times int) {
 
 /*
 func ForWithoutCondition(sal Salutation, times int) {
-   
+    i := 0
     for {
+        if i>=times{
+            break;
+        }
         fmt.Println(sal.name)
         fmt.Println(sal.greeting)
+        i++
     }
 }
 */
