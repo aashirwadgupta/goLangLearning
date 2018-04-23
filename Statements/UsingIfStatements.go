@@ -30,7 +30,8 @@ func Greet(sal Salutation, do func(string) {
 //function with no return types - denoted with empty paranthesis
 type Printer func(string) ()
 
-func Print(s string){
+//Commenting the below functions as they are not being used
+/*func Print(s string){
     //Since below methods are a bit different from the signature of the the typed method,
     //we can't use them directly
     fmt.Print("From Print Function "+s)
@@ -41,7 +42,7 @@ func PrintLine(s string){
     //we can't use them directly
     fmt.Println("From PrintLine Function "+s)
 }
-
+*/
 func MessageWith2Return(param1, param2 string) (string, string){
     var par1 = param1 + " is first parameter"
     var par2 = param2 + " is second parameter"
