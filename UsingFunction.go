@@ -15,6 +15,6 @@ func Greet(sal Salutation) {
 
 func main() {
 	fmt.Println("Hello, playground")
-	var s = Salutation{"Bob", "Hello!"}
+	var s = Salutation{"Aashirwad Gupta", "Hello!"}
 	Greet(s)
 }
