@@ -1,3 +1,9 @@
+/**
+ * @author Aashirwad gupta
+ *
+ * Method Declaration - https://golang.org/ref/spec#Method_declarations
+ */
+
 package greeting
 
 import (
