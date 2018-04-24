@@ -1,7 +1,7 @@
 /**
  * @author Aashirwad gupta
  *
- * Slice - https://golang.org/ref/spec#Slice_types
+ * Method Declaration - https://golang.org/ref/spec#Method_declarations
  */
 
 package main
