@@ -39,8 +39,14 @@ func ForWithoutCondition(sal Salutation, times int) {
     i := 0
     for {
         if i>=times{
-            break;
+            break
         }
+        
+        if i % 2 == 0{
+            i++
+            continue
+        }
+        
         fmt.Println(sal.name)
         fmt.Println(sal.greeting)
         i++
