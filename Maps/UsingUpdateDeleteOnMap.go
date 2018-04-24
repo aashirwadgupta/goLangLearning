@@ -39,6 +39,7 @@ func main() {
 	fmt.Println(statMap)
 
 	//deleting the element from the map
+	//Delete will work regardless if the key isn't there. It won't fail, it will just not do anything
 	delete(statMap, "3.")
 	fmt.Println(statMap)
 }
